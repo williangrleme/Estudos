@@ -1,0 +1,9 @@
+.386
+.model flat
+.code
+Soma PROC
+	MOV EAX, 200
+	ADD EAX,300
+	RET
+Soma ENDP
+END

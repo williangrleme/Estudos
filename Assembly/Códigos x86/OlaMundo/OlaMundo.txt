@@ -1,0 +1,34 @@
+1 - Novo Projeto Vazio
+2 - Botão direito no projeto e "Adicionar Ítem"
+3 - Criar arquivo .ASM
+4 - Configurar MASM no projeto e no arquivo
+
+
+.386
+.model flat, stdcall, c
+.stack 4096    ;A pilha é montada como segmento não inicializado de tamanho finito.‎
+	       ;‎O sistema operacional inicializa ‎‎o ESP‎‎ para o endereço do primeiro 
+	        byte acima dos bytes 4096 na pilha.‎
+
+.data
+;title db 'Win32', 0
+msg BYTE 'Ola Mundo', 0
+
+.code
+includelib libucrt.lib
+includelib legacy_stdio_definitions.lib
+includelib libcmt.lib
+includelib libvcruntime.lib
+
+extrn printf:near  ;identifica símbolos "externos"
+extrn exit:near
+
+public main
+main	proc
+		push	offset msg
+		call	printf
+		push	0
+		call	exit
+
+main endp
+end

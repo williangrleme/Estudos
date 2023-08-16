@@ -1,0 +1,46 @@
+#include <iostream>
+
+extern "C" int SomaASM(int a, int b, int c); 
+int SomaC(int a, int b, int c);
+
+int main()
+{
+	int a = 10, b = 20, c = 30;
+	int soma = SomaC(a, b, c);
+	printf("a:  %d\n", a);
+	printf("b:  %d\n", b);
+	printf("c:  %d\n", c);
+	printf("soma:  %d\n", soma);
+	return 0;
+}
+
+int SomaC(int a, int b, int c)
+{
+	return a + b + c;
+}
+
+
+.386 ;arquitetura
+.model flat,C ;Inicializa o modelo de memória do programa (MASM32)., Vinculo C
+.code  ;inicia o código
+SomaASM PROC  ;inicia procedimentos
+	push ebp     		;inicializa a pilha
+	mov  ebp,esp	;indica o topo da pilha esp ponteiro da pilha
+
+O topo da pilha “cresce negativamente”, 
+de high-memory para low-memory. Assim, sempre que um valor é empilhado na stack, o valor de esp é decrescido. 
+De maneira análoga, sempre que um valor é “desempilhado” da stack, o valor de esp é acrescido.
+
+	mov	 eax,[ebp+8] 	;le os dados da pilha
+	mov	 ecx,[ebp+12]
+	mov	 edx,[ebp+16]
+	add	 eax,ecx	;eax = a + b
+	add	 eax,edx
+
+	pop  ebp		;desempilhar
+	ret
+O endereço de retorno é capturado pela instrução ret, diretamente da stack, para saber onde 
+está a próxima instrução da função chamadora (main) a ser procesada.
+
+SomaASM endp
+end

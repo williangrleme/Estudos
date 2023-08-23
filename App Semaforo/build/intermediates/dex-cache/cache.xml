@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\adamy\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.07\34f07b578c6819579415ddbfc6c418c6008f7ef2\IOIOLibCore-5.07.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="34f07b578c6819579415ddbfc6c418c6008f7ef2">
+        <dex dex="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\pre-dexed\debug\IOIOLibCore-5.07_ce1ceb9447c21f2215795c812c76a132d6e33fd3.jar" />
+    </item>
+    <item
+        jar="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e70120231d632313bd764c5ac45da1d87c6acd7">
+        <dex dex="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidAccessory-5.07_4bf6de7b3dbfb8bb2051bd472dafc9094980b3ae.jar" />
+    </item>
+    <item
+        jar="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
+        <dex dex="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.07_7bd2f2345fb735b639e903c2dc0a2ab266eb1bd2.jar" />
+    </item>
+    <item
+        jar="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ad262bc3131b4f369d6c13240ec9cfac6278732">
+        <dex dex="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.07_053d99ec18824b293528ba641ba88a3ea61a5ca4.jar" />
+    </item>
+    <item
+        jar="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
+        <dex dex="C:\Users\adamy\Desktop\App-IOIO0507\src\applications\IOIOSimpleApp\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.07_038605f34c4b5b3b2c0990bf119d49cf0ba81902.jar" />
+    </item>
+
+</items>

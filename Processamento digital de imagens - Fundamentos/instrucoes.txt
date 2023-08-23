@@ -1,0 +1,13 @@
+1 - [OPERAÇÃO PONTO A PONTO]:
+	Calcular o negativo das imagens;
+	Diminuir pela metade a intensidade dos pixels;
+	Incluir 4 quadrados brancos 10 x 10 pixels em cada canto das imagens;
+	Incluir 1 quadrado preto 15X15 no centro das imagens
+2 - [OPERAÇÃO POR VIZINHANÇA]: Utilizar kernel 3x3 pixels e desconsiderar pixels das extremidades. Para cada filtro implementar utilizando apenas numpy, utilizando pillow, utilizando opencv e utilizando scipy.
+	Calcular o filtro da média;
+	Calcular o filtro da mediana;
+3 - [TRANSFORMAÇÕES GEOMÉTRICAS]: Para cada filtro implementar utilizando apenas numpy, utilizando pillow, utilizando opencv e utilizando scipy.
+	Escala: Redução em 1.5x e aumentar em 2.5x;
+	Rotação em 45º, 90º e 100º;
+	Translação utilizar os parâmetros que quiser nas coordenadas x e y;
+	Translação em 35 pixel no eixo X, 45 eixo Y; 
